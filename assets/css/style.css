@@ -1,0 +1,106 @@
+#slider {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  height: 100vh;
+  background-image: url(../images/banner1-4.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+#slider::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 50%;
+}
+
+#slider .slider-area {
+  width: 100%;
+  max-width: 880px;
+  margin: 0 auto;
+  text-align: center;
+  color: white;
+  z-index: 2;
+}
+
+#slider .slider-area h1 {
+  font-size: 60px;
+}
+
+#slider .slider-area h2 {
+  font-size: 50px;
+  font-weight: 200;
+}
+
+#slider .slider-area h3 {
+  font-size: 20px;
+  font-weight: 200;
+}
+
+.slider-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  color: white;
+  z-index: 2;
+}
+
+.slider-items .col-3 .item {
+  text-align: center;
+  background-color: #26313c;
+  -webkit-transform: translate(200px, -10px);
+          transform: translate(200px, -10px);
+  color: white;
+}
+
+.slider-items .col-3 .item i {
+  font-size: 30px;
+  margin-bottom: 40px;
+  padding-top: 80px;
+}
+
+.slider-items .col-3 .item p {
+  padding-bottom: 80px;
+}
+
+.slider-items .col-3 .item-2 {
+  padding: 30px;
+  text-align: center;
+  background-image: -webkit-gradient(linear, left top, right top, from(#5192e1), color-stop(51%, #23ced5), to(#5192e1));
+  background-image: linear-gradient(to right, #5192e1 0%, #23ced5 51%, #5192e1);
+  -webkit-transform: translate(200px, -10px);
+          transform: translate(200px, -10px);
+  color: white;
+}
+
+.slider-items .col-3 .item-2 i {
+  font-size: 30px;
+  margin-bottom: 40px;
+  padding-top: 70px;
+}
+
+.slider-items .col-3 .item-2 p {
+  padding-bottom: 80px;
+}
+
+.container-fluid .logo-image {
+  width: 70%;
+  height: 70%;
+}
+/*# sourceMappingURL=style.css.map */
